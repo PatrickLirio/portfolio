@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patrick Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c51a76512f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, <span>Patrick Lirio</span> <br>from Taguig City, Philippines</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pat.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am 23 years old and a graduate with a BS in Computer Engineering from Pamantasan ng Lungsod ng Maynila. 
+                        Throughout my academic journey, I led multiple projects, one of it was "MUKLAT," a smart 
+                        assistive mobility aid for the visually impaired Individuals. My passion for contributing to innovative technology drove 
+                        me to create impactful solutions like this.
+                    </p>
+                    <br>
+                    <p>
+                        Right now, I'm honing my skills in Java, C++, Python, and JavaScript while gaining more experience in both front-end and back-end development. I believe in the saying, 
+                        "A jack of all trades is a master of none, but oftentimes better than a master of one," as it reflects my commitment to becoming versatile and well-rounded in my field.
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software Engineer</span> <br> Creating applications</li>
+                            <li><span>Web Development</span> <br> Web App development</li>
+                            <li><span>App Development</span> <br> Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb. 2024 - May 2024</span> <br> Intern at Coca-cola Beverages Philippines Inc.</li>
+                            <li><span>Aug. 2023 - Feb. 2024</span> <br> Associate Consultant at CGI Philippines Inc.</li>
+                            <li><span>March 2022 - July 2023</span> <br> Customer Service Representative at FIS Global Solutions Philippines Inc.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span> <br>BSCpE at Pamantasan ng Lungsod ng Maynila</li>
+                            <li><span>2019</span> <br>G.A.S at St. Francis of Assisi College-Taguig</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive and user-friendly and responsive websites using HTML, CSS, and JavaScript.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Created Point of Sale (POS) system that will helped small - medium size enterpries using Java Swing for Graphical-User-Interface.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Game Development</h2>
+                    <p>Developing simple games such as "Bato-Bato pick", "Snake Xenzia", and "Pong" using Java, C++, and Python programming languages just to apply the knowledge I learned and try to understand some syntaxes.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     
+     <!-- Portfolio -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png" alt="">
+                    <div class="layer">
+                        <h3>MUKLAT</h3>
+                        <p>The device assist the vissually impaired individuals to detect objects around the person
+                            and aims to increase the mobility of the user.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png" alt="">
+                    <div class="layer">
+                        <h3>ITAMS</h3>
+                        <p> The IT Asset Management System is a web based application aims to assist the IT department to 
+                            manage,track, and dispose their assets.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png" alt="">
+                    <div class="layer">
+                        <h3>PChub</h3>
+                        <p> A Java Swing application designed to implement the principles of object-oriented programming,
+                             providing users with a comprehensive POS (Point of Sale) system for selling computer parts.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!-- Portfolio -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>pbenedict.lirio@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100008655884616"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/patatoss15/  "><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/patrick-benedict-lirio/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/PatrickLirio"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                        <form>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+    <script src = "condition.js"></script>  
+
+</body>
+</html>
