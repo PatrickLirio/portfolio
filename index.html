@@ -12,17 +12,19 @@
         <div class="container">
             <nav>
                 <img src="images/logo2.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Software Engineer</p>
-                <h1>Hi, <span>Patrick Lirio</span> <br>from Taguig City, Philippines</h1>
+                <p>Software Engineer <span>aspirant</span></p>
+                <h1>Hi, <span>Patrick Benedict Lirio</span> <br>from Taguig City, Philippines</h1>
             </div>
         </div>
     </div>
@@ -156,23 +158,28 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p>pbenedict.lirio@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i> pbenedict.lirio@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +63-9274056590</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/profile.php?id=100008655884616"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://www.instagram.com/patatoss15/  "><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/patrick-benedict-lirio/"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/PatrickLirio"><i class="fa-brands fa-github"></i></a>
                     </div>
+                    <a href="images/Lirio, Patrick Benedict - CV.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                         <form>
-                            <input type="text" name="name" placeholder="Your Name" required>
-                            <input type="email" name="email" placeholder="Your Email" required>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                            <button type="submit">Submit</button>
+                            <button type="submit" class="btn btn2">Submit</button>
                         </form>
                 </div>
             </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Patrick Benedict Lirio. All rights reserved.</p
         </div>
      </div>
 
