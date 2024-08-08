@@ -83,7 +83,7 @@ nav ul li a:hover::after {
 .typing {
     display: inline-block;
     border-right: 2px solid;
-    font-family:Bodoni MT;
+    font-family:'Montserrat', sans-serif;
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
