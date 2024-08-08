@@ -70,7 +70,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.header-text p span {
+.header-text p .span {
     font-family: "Caveat", cursive;
     font-weight: 400;
     font-style: normal;
@@ -79,6 +79,25 @@ nav ul li a:hover::after {
     display: inline-block; 
     position: relative; /* Enables the top property to work */
     top: -20px; /* Adjust this value to move the text upward */
+}
+.typing {
+    display: inline-block;
+    border-right: 2px solid;
+    font-family:Bodoni MT;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.blinking-cursor {
+    animation: blink 0.75s step-end infinite;
+}
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
 }
 
 .header-text {
