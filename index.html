@@ -169,12 +169,20 @@
                     <a href="images/resume-Lirio,Patrick Benedict P..pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                        <form>
+                        <form onsubmit="return submitForm()">
                             <input type="text" name="Name" placeholder="Your Name" required>
                             <input type="email" name="Email" placeholder="Your Email" required>
                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                             <button type="submit" class="btn btn2">Submit</button>
                         </form>
+                </div>
+
+                <!-- Custom Alert Modal -->
+                <div id="custom-alert" class="modal">
+                    <div class="modal-content">
+                        <p>I apologize; I haven't implemented this feature yet. I'm still considering a database where your messages will be stored.</p>
+                        <button onclick="closeModal()">OK</button>
+                    </div>
                 </div>
             </div>
         </div>

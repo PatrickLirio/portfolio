@@ -82,3 +82,14 @@ function deleteTitle() {
 document.addEventListener('DOMContentLoaded', (event) => {
     typeTitle();
 });
+
+function submitForm() {
+    // Show the custom alert modal
+    document.getElementById('custom-alert').style.display = 'block';
+    return false; // Prevent form submission
+}
+
+function closeModal() {
+    // Hide the custom alert modal
+    document.getElementById('custom-alert').style.display = 'none';
+}
